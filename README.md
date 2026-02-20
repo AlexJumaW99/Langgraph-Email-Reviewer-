@@ -28,7 +28,22 @@ I recommend using Anaconda/Miniconda. If you do not have it installed, download 
 
 ### Installation
 
-1. ~~Clone the Repository~~ _Done!_
+1. Clone the Repository:
+
+   ```
+   # cd to the folder you would like to start your project in
+   cd path/to/folder
+
+   # Create project directory
+   mkdir email_automation
+
+   # Clone this repo
+   git clone https://github.com/AlexJumaW99/Langgraph-Email-Reviewer-.git
+
+   # cd to project root folder
+   cd Langgraph-Email-Reviewer-
+   ```
+
 2. Create the Conda Environment:
 
    ```
