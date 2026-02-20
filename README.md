@@ -1,6 +1,6 @@
 # 📧 LangGraph Email Reviewer Agent
 
-✍🏾**Author : Alex W. Juma**
+✍🏾 **Author : Alex W. Juma**
 
 ## 📖 Project Summary
 
