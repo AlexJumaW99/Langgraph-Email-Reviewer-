@@ -115,7 +115,7 @@ I recommend using Anaconda/Miniconda. If you do not have it installed, download 
 To launch the email agent and process the default complex ticket, simply run the main script from your terminal:
 
 ```
-# From root folder, in the terminal
+# From root folder, in the terminal, run the following command
 python main.py
 ```
 
