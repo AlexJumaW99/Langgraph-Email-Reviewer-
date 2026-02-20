@@ -131,11 +131,11 @@ The context used by the llm to generate a reply to the email, comes from knowled
 
 ![Workflow:](readme_pics/context.png)
 
-You can try and tweak the "Billing Policy" from 7-8 days down to 3 days, or change the troubleshooting strategy recommended to the user in ID 1022, to see how the llm's response to the example email changes.
+In the json file, you can try and tweak the "Billing Policy" from the current 7-8 days down to 2-3 days, or change the troubleshooting strategy recommended to the user in ID 1022, to see how the llm's response to the example email changes.
 
-Langgraph's architecture allows for consistent responses to prompts, based on context as long as the information is not conflicting - which is a common pitfall. This would confuse the model and lead to hallucinations. A workaround is giving strict rules on given on how to handle these conflicts if you can't avoid them altogether.
+Langgraph's architecture ensures consistent responses to prompts, as long as the context information is not conflicting - which is a common pitfall. This would ultimately confuse the model and lead to hallucinations. A workaround is giving strict rules on how to handle these conflicts, if you can't avoid them altogether.
 
-Consider modifying the code to integrate your own (or connect to a cloud) MCP server for RAG.
+##### 🔧 Pro Tip: Consider modifying the code to integrate your own (or connect to a cloud) MCP server for RAG.
 
 ## 🔗 Documentation References
 
