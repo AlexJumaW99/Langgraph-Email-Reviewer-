@@ -112,7 +112,7 @@ I recommend using Anaconda/Miniconda. If you do not have it installed, download 
 
 ## 💻 Usage
 
-To launch the email agent and process the default complex ticket, simply run the main script from your terminal:
+To launch the email agent and automate the process of replying to the default email, simply run the main.py script from your project root folder (Langgraph-Email-Reviewer-):
 
 ```
 # From root folder, in the terminal, run the following command
