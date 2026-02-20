@@ -48,10 +48,10 @@ I recommend using Anaconda/Miniconda. If you do not have it installed, download 
 
    ```
    # Create environment (project specifically uses Python 3.12.12)
-   conda create --name email_agent python=3.12
+   conda create --name email_agent_env python=3.12
 
    # Activate environment
-   conda activate email_agent
+   conda activate email_agent_env
 
    # Verify python version
    python --version
@@ -67,10 +67,10 @@ I recommend using Anaconda/Miniconda. If you do not have it installed, download 
    conda install --file requirements.txt
    ```
 
-4. Create your Environment Variables (.env file):
+4. Modify the existing Environment Variables (.env file):
    You must provide the system with access to Google's Gemini API. You can get an API key from here: https://ai.google.dev/gemini-api/docs/api-key.
 
-   Create a .env file in the root of your project directory. Let's first visualize the project tree structure:
+   Modify the .env file in the root of your project directory. Let's first visualize the project tree structure:
 
    ```
    .
@@ -81,7 +81,7 @@ I recommend using Anaconda/Miniconda. If you do not have it installed, download 
    ├── README.md
    ├── **pycache** (Ignore this folder for now)
    │
-   │
+   │-- .env *<- You should have this file*
    ├── config.py
    ├── graph.py
    ├── knowledge_base.json
