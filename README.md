@@ -119,7 +119,7 @@ To launch the email agent and automate the process of replying to the default em
 python main.py
 ```
 
-### Expected Output
+### 💭 Expected Output
 
 ![Workflow:](readme_pics/execution.png)
 
