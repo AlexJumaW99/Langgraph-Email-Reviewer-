@@ -1,0 +1,22 @@
+[
+  {
+    "id": "8492",
+    "category": "Billing Policy",
+    "content": "If a user reports being double-charged, verify their subscription status. If duplicate charges exist within a 24-hour window, automatically approve the refund for the most recent charge. Inform the customer that refunds take 7-8 business days to process."
+  },
+  {
+    "id": "1022",
+    "category": "Known Bugs",
+    "content": "We are currently tracking a 'blank white screen on login' issue (Internal Ticket #UI-992). Workaround: Ask the user to clear their browser cache or use an Incognito/Private window. A permanent fix is scheduled for Patch 2.4 tomorrow."
+  },
+  {
+    "id": "2271",
+    "category": "Known Bugs",
+    "content": "We are currently tracking a submission error when users try and fill our gifting form."
+  },
+  {
+    "id": "551",
+    "category": "General Tone",
+    "content": "Always apologize for billing errors and express empathy when users are blocked by technical bugs."
+  }
+]

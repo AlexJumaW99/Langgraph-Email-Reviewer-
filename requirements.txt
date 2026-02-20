@@ -1,0 +1,7 @@
+fastmcp==2.14.5
+ipython==8.12.3
+langchain==1.2.10
+langchain_google_genai==4.2.0
+langgraph==1.0.8
+protobuf==6.33.5
+python-dotenv==1.2.1
