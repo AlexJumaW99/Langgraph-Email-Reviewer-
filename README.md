@@ -123,7 +123,7 @@ python main.py
 
 ![Workflow:](readme_pics/execution.png)
 
-Watch the terminal as the AI Agents classify the user's intent in the email & prioritize it, retrieve context documentation, draft a response, and halt execution to present you with the output for review, editing and/or approval!
+Watch the terminal as the AI Agents classify the person's intent from the email & prioritize it, retrieve context documentation, draft a response, and halt execution to present you with the output for review, editing and/or approval!
 
 ## ⚙️ Modify the LLM's Context
 
